@@ -44,7 +44,7 @@ call plug#end()        " end block with pluggins
 :nnoremap <C-t,t> :NERDTreeToggle <CR>
 :nnoremap <C-\> :TagbarToggle <CR>
 :nnoremap <C-t> :ToggleTerm <CR>
-:nnoremap <C-t,c> :ToggleTermToggleAll size=20 <CR>
+:nnoremap <C-t,c> :ToggleTermToggleAll size=10 <CR>
 
 :let g:tagbar_compact=1
 :let g:tagbar_sort=0
